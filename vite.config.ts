@@ -4,8 +4,14 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  // Secara otomatis menggunakan nama repository jika di-deploy melalui GitHub Actions
+  // Jika tidak, gunakan './' sebagai fallback relative path
+  const repoName = process.env.GITHUB_REPOSITORY 
+    ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/` 
+    : './';
+
   return {
-    base: './',
+    base: repoName,
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
