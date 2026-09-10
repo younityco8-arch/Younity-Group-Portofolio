@@ -53,19 +53,19 @@ export function ServicesSection() {
   };
 
   return (
-    <section id="layanan" className="py-14 sm:py-20 lg:py-24 bg-white border-t border-slate-100">
+    <section id="layanan" className="py-14 sm:py-20 lg:py-24 bg-white dark:bg-[#020617] border-t border-slate-100 dark:border-slate-800/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-wider mb-3">
-            <Layers className="w-4 h-4 text-blue-600" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 dark:text-blue-400 text-xs font-semibold uppercase tracking-wider mb-3">
+            <Layers className="w-4 h-4 text-blue-600 dark:text-blue-400" />
             <span>Produk & Layanan</span>
           </div>
-          <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             Solusi Menyeluruh untuk Segala Format Acara
           </h2>
-          <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
+          <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
             Dikelola dengan pendekatan personal dan eksekusi terstruktur, didukung oleh peralatan in-house dan kru profesional.
           </p>
         </div>
@@ -82,8 +82,8 @@ export function ServicesSection() {
                 onClick={() => setSelectedServiceId(service.id)}
                 className={`p-5 sm:p-8 rounded-2xl border transition-all duration-300 relative flex flex-col justify-between cursor-pointer ${
                   isSelected
-                    ? 'border-blue-500 bg-white shadow-xl ring-1 ring-blue-500/20'
-                    : 'border-slate-200/90 bg-slate-50/50 hover:bg-white hover:border-slate-300 hover:shadow-md'
+                    ? 'border-blue-500 bg-white dark:bg-[#020617] shadow-xl ring-1 ring-blue-500/20'
+                    : 'border-slate-200/90 bg-slate-50/50 hover:bg-white dark:bg-[#020617] hover:border-slate-300 hover:shadow-md'
                 }`}
               >
                 {/* Top Badge if any */}
@@ -101,26 +101,26 @@ export function ServicesSection() {
                     <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
                   </div>
 
-                  <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-1 sm:mb-2">
+                  <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-1 sm:mb-2">
                     {service.title}
                   </h3>
                   
-                  <p className="text-xs sm:text-sm font-semibold text-blue-700 mb-3 sm:mb-4">
+                  <p className="text-xs sm:text-sm font-semibold text-blue-700 dark:text-blue-400 dark:text-blue-400 mb-3 sm:mb-4">
                     {service.subtitle}
                   </p>
 
-                  <p className="text-xs sm:text-sm text-slate-600 mb-5 sm:mb-6 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mb-5 sm:mb-6 leading-relaxed">
                     {service.description}
                   </p>
 
                   {/* Deliverables List */}
                   <div className="mb-5 sm:mb-6">
-                    <div className="text-xs font-bold uppercase tracking-wider text-slate-700 mb-2.5 sm:mb-3">
+                    <div className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2.5 sm:mb-3">
                       Cakupan Layanan:
                     </div>
                     <ul className="space-y-2">
                       {service.deliverables.map((item, idx) => (
-                        <li key={idx} className="flex items-start gap-2 sm:gap-2.5 text-xs sm:text-sm text-slate-700">
+                        <li key={idx} className="flex items-start gap-2 sm:gap-2.5 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
                           <Check className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
                           <span>{item}</span>
                         </li>
@@ -129,22 +129,22 @@ export function ServicesSection() {
                   </div>
 
                   {/* Keunggulan Note */}
-                  <div className="p-3 sm:p-3.5 rounded-xl bg-blue-50/60 border border-blue-100/80 text-xs text-slate-700 mb-4">
+                  <div className="p-3 sm:p-3.5 rounded-xl bg-blue-50/60 dark:bg-blue-500/20 dark:bg-blue-50 dark:bg-blue-500/100/20 border border-blue-100/80 text-xs text-slate-700 dark:text-slate-300 mb-4">
                     <strong className="text-blue-900 font-semibold block mb-0.5">Keunggulan Utama:</strong>
                     {service.advantage}
                   </div>
                 </div>
 
                 {/* Bottom CTA for this specific service */}
-                <div className="pt-3.5 sm:pt-4 border-t border-slate-100 flex items-center justify-between">
-                  <span className="text-[11px] text-slate-500 font-medium">
+                <div className="pt-3.5 sm:pt-4 border-t border-slate-100 dark:border-slate-800/50 flex items-center justify-between">
+                  <span className="text-[11px] text-slate-500 dark:text-slate-400 font-medium">
                     Cocok untuk: {service.popularFor}
                   </span>
                   <a
                     href={`https://wa.me/6282312515113?text=Halo%20YouNity%20Group,%20kami%20ingin%20konsultasi%20layanan%20${encodeURIComponent(service.title)}.`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 hover:text-blue-800 transition-colors py-1"
+                    className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:text-blue-300 dark:text-blue-300 transition-colors py-1"
                   >
                     <span>Konsultasi</span>
                     <ArrowRight className="w-3.5 h-3.5" />
@@ -160,17 +160,17 @@ export function ServicesSection() {
         {/* EQUIPMENT RENTAL INVENTORY SHOWCASE */}
         {/* ======================================================== */}
         <div id="peralatan" className="pt-4 sm:pt-8 scroll-mt-24">
-          <div className="bg-slate-50 rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 border border-slate-200">
+          <div className="bg-slate-50 dark:bg-slate-900 rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 border border-slate-200 dark:border-slate-800">
             
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-6 sm:mb-10">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
+                <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
                   Creative Production & Equipment
                 </span>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 mt-1">
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">
                   Sewa Peralatan Event & Rigging
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-600 mt-2 max-w-2xl">
+                <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-2 max-w-2xl">
                   YouNity Group menyediakan dukungan alat panggung berstandar industri dengan teknisi operator berpengalaman untuk memastikan kelancaran teknis tanpa kendala.
                 </p>
               </div>
@@ -193,27 +193,27 @@ export function ServicesSection() {
                 return (
                   <div
                     key={idx}
-                    className="bg-white p-6 rounded-2xl border border-slate-200 shadow-2xs hover:shadow-md transition-all hover:border-blue-300"
+                    className="bg-white dark:bg-[#020617] p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-2xs hover:shadow-md transition-all hover:border-blue-300"
                   >
                     <div className="flex items-center justify-between mb-4">
-                      <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center">
+                      <div className="w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center">
                         <Icon className="w-5 h-5" />
                       </div>
-                      <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider bg-slate-100 px-2 py-0.5 rounded">
+                      <span className="text-[10px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider bg-slate-100 dark:bg-slate-800/50 px-2 py-0.5 rounded">
                         {item.category}
                       </span>
                     </div>
 
-                    <h4 className="text-base font-bold text-slate-900 mb-1">
+                    <h4 className="text-base font-bold text-slate-900 dark:text-white mb-1">
                       {item.name}
                     </h4>
 
-                    <p className="text-xs text-slate-600 mb-4 leading-relaxed">
+                    <p className="text-xs text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">
                       {item.description}
                     </p>
 
-                    <div className="p-3 bg-slate-50 rounded-xl border border-slate-100 text-[11px] text-slate-700">
-                      <span className="font-semibold text-slate-900 block mb-0.5">Spesifikasi Unit:</span>
+                    <div className="p-3 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-100 dark:border-slate-800/50 text-[11px] text-slate-700 dark:text-slate-300">
+                      <span className="font-semibold text-slate-900 dark:text-white block mb-0.5">Spesifikasi Unit:</span>
                       {item.specs}
                     </div>
                   </div>

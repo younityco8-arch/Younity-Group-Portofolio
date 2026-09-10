@@ -61,19 +61,19 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
   };
 
   return (
-    <div className="bg-white rounded-2xl sm:rounded-3xl border border-slate-200 p-4 sm:p-6 md:p-10 shadow-lg">
+    <div className="bg-white dark:bg-[#020617] rounded-2xl sm:rounded-3xl border border-slate-200 dark:border-slate-800 p-4 sm:p-6 md:p-10 shadow-lg">
       
       {/* Title */}
-      <div className="flex items-center justify-between pb-4 sm:pb-6 mb-4 sm:mb-6 border-b border-slate-100">
+      <div className="flex items-center justify-between pb-4 sm:pb-6 mb-4 sm:mb-6 border-b border-slate-100 dark:border-slate-800/50">
         <div>
-          <div className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">
+          <div className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-1">
             <Calculator className="w-4 h-4" />
             <span>Kalkulator & Estimasi Kebutuhan</span>
           </div>
-          <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
+          <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             Rancang Kebutuhan Acara Anda
           </h3>
-          <p className="text-xs sm:text-sm text-slate-500 mt-1">
+          <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
             Pilih preferensi Anda untuk menghasilkan brief rencana acara instan ke YouNity Group.
           </p>
         </div>
@@ -83,7 +83,7 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
         
         {/* Step 1: Jenis Acara */}
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+          <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
             1. Pilih Format / Jenis Acara
           </label>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-2.5">
@@ -101,8 +101,8 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
                 onClick={() => setEventType(type)}
                 className={`p-2.5 sm:p-3 text-xs font-semibold rounded-xl text-left border transition-all ${
                   eventType === type
-                    ? 'border-blue-600 bg-blue-50/80 text-blue-800 ring-1 ring-blue-500/30'
-                    : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
+                    ? 'border-blue-600 bg-blue-50/80 dark:bg-blue-500/20 dark:bg-blue-50 dark:bg-blue-500/100/20 text-blue-800 dark:text-blue-300 dark:text-blue-300 ring-1 ring-blue-500/30'
+                    : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-[#020617] text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-900'
                 }`}
               >
                 {type}
@@ -113,7 +113,7 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
 
         {/* Step 2: Estimasi Tamu */}
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+          <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">
             2. Estimasi Jumlah Tamu / Peserta
           </label>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-2.5">
@@ -124,8 +124,8 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
                 onClick={() => setGuestCount(count)}
                 className={`p-2.5 sm:p-3 text-xs font-semibold rounded-xl text-center border transition-all ${
                   guestCount === count
-                    ? 'border-blue-600 bg-blue-50/80 text-blue-800 ring-1 ring-blue-500/30'
-                    : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
+                    ? 'border-blue-600 bg-blue-50/80 dark:bg-blue-500/20 dark:bg-blue-50 dark:bg-blue-500/100/20 text-blue-800 dark:text-blue-300 dark:text-blue-300 ring-1 ring-blue-500/30'
+                    : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-[#020617] text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-900'
                 }`}
               >
                 {count}
@@ -137,10 +137,10 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
         {/* Step 3: Layanan & Perlengkapan */}
         <div>
           <div className="flex items-center justify-between mb-2">
-            <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+            <label className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
               3. Layanan & Fasilitas yang Dibutuhkan
             </label>
-            <span className="text-[10px] sm:text-[11px] text-slate-500">Pilih satu atau lebih</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400">Pilih satu atau lebih</span>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-2.5">
             {serviceOptions.map((opt) => {
@@ -152,13 +152,13 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
                   onClick={() => toggleService(opt)}
                   className={`flex items-center gap-2.5 p-2.5 sm:p-3 rounded-xl text-xs font-medium text-left border transition-all ${
                     isChecked
-                      ? 'border-blue-500 bg-blue-50 text-blue-900 font-semibold'
-                      : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
+                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-500/10 text-blue-900 font-semibold'
+                      : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-[#020617] text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900'
                   }`}
                 >
                   <div
                     className={`w-4 h-4 rounded flex items-center justify-center text-white text-[10px] flex-shrink-0 ${
-                      isChecked ? 'bg-[#0066FF]' : 'border border-slate-300 bg-white'
+                      isChecked ? 'bg-[#0066FF]' : 'border border-slate-300 bg-white dark:bg-[#020617]'
                     }`}
                   >
                     {isChecked && <Check className="w-3 h-3" />}
@@ -173,7 +173,7 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
         {/* Step 4: Lokasi & Rencana */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
           <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+            <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">
               4. Lokasi / Kota Rencana
             </label>
             <input
@@ -181,12 +181,12 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
               value={locationPlan}
               onChange={(e) => setLocationPlan(e.target.value)}
               placeholder="Contoh: Bandung, Rancaekek, Lembang, dll."
-              className="w-full text-xs sm:text-sm p-2.5 sm:p-3 rounded-xl border border-slate-200 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full text-xs sm:text-sm p-2.5 sm:p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#020617] focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+            <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">
               Catatan Tambahan (Opsional)
             </label>
             <input
@@ -194,15 +194,15 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
               placeholder="Contoh: Butuh MC, rencana bulan depan, dll."
-              className="w-full text-xs sm:text-sm p-2.5 sm:p-3 rounded-xl border border-slate-200 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full text-xs sm:text-sm p-2.5 sm:p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#020617] focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
         </div>
 
         {/* Action Button: Send via WhatsApp */}
-        <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
-          <div className="text-xs text-slate-500">
-            <span className="font-semibold text-slate-700">Respon Cepat:</span> Tim YouNity siap memberikan estimasi penawaran resmi dalam 1x24 jam.
+        <div className="pt-4 border-t border-slate-100 dark:border-slate-800/50 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
+          <div className="text-xs text-slate-500 dark:text-slate-400">
+            <span className="font-semibold text-slate-700 dark:text-slate-300">Respon Cepat:</span> Tim YouNity siap memberikan estimasi penawaran resmi dalam 1x24 jam.
           </div>
 
           <a

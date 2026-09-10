@@ -77,7 +77,7 @@ export function LightboxModal({
     >
       {/* Modal Dialog Content */}
       <div
-        className="relative max-w-5xl w-full bg-white rounded-2xl overflow-hidden shadow-2xl flex flex-col lg:flex-row max-h-[92vh]"
+        className="relative max-w-5xl w-full bg-white dark:bg-[#020617] rounded-2xl overflow-hidden shadow-2xl flex flex-col lg:flex-row max-h-[92vh]"
         onClick={(e) => e.stopPropagation()}
       >
         
@@ -94,7 +94,7 @@ export function LightboxModal({
           <button
             type="button"
             onClick={handlePrev}
-            className="absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-slate-900/70 hover:bg-white text-white hover:text-slate-900 flex items-center justify-center transition-all shadow-md focus:outline-none"
+            className="absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-slate-900/70 hover:bg-white dark:bg-[#020617] text-white hover:text-slate-900 dark:text-white flex items-center justify-center transition-all shadow-md focus:outline-none"
             aria-label="Previous photo"
           >
             <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -103,7 +103,7 @@ export function LightboxModal({
           <button
             type="button"
             onClick={handleNext}
-            className="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-slate-900/70 hover:bg-white text-white hover:text-slate-900 flex items-center justify-center transition-all shadow-md focus:outline-none"
+            className="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-slate-900/70 hover:bg-white dark:bg-[#020617] text-white hover:text-slate-900 dark:text-white flex items-center justify-center transition-all shadow-md focus:outline-none"
             aria-label="Next photo"
           >
             <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -122,18 +122,18 @@ export function LightboxModal({
         </div>
 
         {/* Sidebar Info & Context (Right / Bottom) */}
-        <div className="lg:w-1/4 p-4 sm:p-6 flex flex-col justify-between bg-white border-t lg:border-t-0 lg:border-l border-slate-200 overflow-y-auto">
+        <div className="lg:w-1/4 p-4 sm:p-6 flex flex-col justify-between bg-white dark:bg-[#020617] border-t lg:border-t-0 lg:border-l border-slate-200 dark:border-slate-800 overflow-y-auto">
           
           <div>
             {/* Top Close Button for Mobile & Desktop */}
-            <div className="flex items-center justify-between pb-4 border-b border-slate-100 mb-4">
-              <span className="text-[11px] uppercase font-bold text-blue-600 tracking-wider">
+            <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800/50 mb-4">
+              <span className="text-[11px] uppercase font-bold text-blue-600 dark:text-blue-400 tracking-wider">
                 Dokumentasi Acara
               </span>
               <button
                 type="button"
                 onClick={onClose}
-                className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition-colors"
+                className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800/50 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-400 flex items-center justify-center transition-colors"
                 aria-label="Close modal"
               >
                 <X className="w-4 h-4" />
@@ -141,34 +141,34 @@ export function LightboxModal({
             </div>
 
             {/* Event Title */}
-            <div className="text-xs font-bold text-slate-500 uppercase mb-1">
+            <div className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase mb-1">
               {photo.eventTitle}
             </div>
 
             {/* Photo Title */}
-            <h3 className="text-lg font-bold text-slate-900 leading-snug mb-3">
+            <h3 className="text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3">
               {photo.title}
             </h3>
 
             {/* Detailed Description */}
-            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6">
+            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
               {photo.caption}
             </p>
 
             {/* Event Organizer Guarantee */}
-            <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 text-xs space-y-2 mb-6">
-              <div className="flex items-center gap-2 text-slate-700 font-semibold">
+            <div className="bg-slate-50 dark:bg-slate-900 p-3.5 rounded-xl border border-slate-200 dark:border-slate-800 text-xs space-y-2 mb-6">
+              <div className="flex items-center gap-2 text-slate-700 dark:text-slate-300 font-semibold">
                 <Sparkles className="w-3.5 h-3.5 text-amber-500" />
                 <span>Eksekusi YouNity Group</span>
               </div>
-              <p className="text-slate-500 text-[11px] leading-relaxed">
+              <p className="text-slate-500 dark:text-slate-400 text-[11px] leading-relaxed">
                 Setiap dokumentasi dihasilkan dari manajemen lapangan profesional dengan koordinasi tim ber-SOP terstruktur.
               </p>
             </div>
           </div>
 
           {/* Quick CTA to inquire about this type of event */}
-          <div className="pt-4 border-t border-slate-100">
+          <div className="pt-4 border-t border-slate-100 dark:border-slate-800/50">
             <a
               href={`https://wa.me/6282312515113?text=Halo%20YouNity%20Group,%20saya%20tertarik%20dengan%20konsep%20acara%20seperti%20${encodeURIComponent(photo.eventTitle)}%20(${encodeURIComponent(photo.title)}).%20Bisa%20diskusi%20lebih%20lanjut?`}
               target="_blank"

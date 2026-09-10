@@ -18,7 +18,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
   return (
     <section 
       id="hero" 
-      className="relative pt-24 sm:pt-28 md:pt-36 pb-12 sm:pb-16 md:pb-24 bg-white overflow-hidden"
+      className="relative pt-24 sm:pt-28 md:pt-36 pb-12 sm:pb-16 md:pb-24 bg-white dark:bg-[#020617] overflow-hidden"
     >
       {/* Subtle clean background architectural grid / aura */}
       <div 
@@ -37,15 +37,15 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
           <div className="lg:col-span-7 flex flex-col items-start">
             
             {/* Top Origin & Credibility Pill */}
-            <div className="inline-flex flex-wrap items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-blue-50/80 border border-blue-100 text-blue-800 text-[11px] sm:text-xs font-semibold mb-4 sm:mb-6 shadow-2xs max-w-full">
+            <div className="inline-flex flex-wrap items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-blue-50/80 dark:bg-blue-500/20 dark:bg-blue-50 dark:bg-blue-500/100/20 border border-blue-100 text-blue-800 dark:text-blue-300 dark:text-blue-300 text-[11px] sm:text-xs font-semibold mb-4 sm:mb-6 shadow-2xs max-w-full">
               <span className="w-2 h-2 rounded-full bg-[#0066FF] animate-pulse flex-shrink-0" />
               <span className="whitespace-nowrap">One Step Event Solutions</span>
               <span className="text-blue-300 hidden xs:inline">•</span>
-              <span className="text-slate-600 font-normal">Bandung, Jawa Barat</span>
+              <span className="text-slate-600 dark:text-slate-400 font-normal">Bandung, Jawa Barat</span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15] sm:leading-[1.12] mb-4 sm:mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-[1.15] sm:leading-[1.12] mb-4 sm:mb-6">
               Momen Sukses Dimulai dari{' '}
               <span className="text-[#0066FF] relative inline-block">
                 Eksekusi Presisi
@@ -67,26 +67,26 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
             </h1>
 
             {/* Subtitle / Positioning */}
-            <p className="text-base sm:text-lg lg:text-xl text-slate-600 leading-relaxed max-w-2xl mb-6 sm:mb-8 font-normal">
-              <strong className="font-semibold text-slate-800">YouNity Group</strong> adalah mitra manajemen dan produksi acara satu pintu di Bandung. Kami memadukan idealisme, energi muda, dan ketelitian manajemen untuk mewujudkan peluncuran produk, expo bisnis, konser kampus, hingga corporate gathering yang tertib dan berkesan.
+            <p className="text-base sm:text-lg lg:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl mb-6 sm:mb-8 font-normal">
+              <strong className="font-semibold text-slate-800 dark:text-slate-200">YouNity Group</strong> adalah mitra manajemen dan produksi acara satu pintu di Bandung. Kami memadukan idealisme, energi muda, dan ketelitian manajemen untuk mewujudkan peluncuran produk, expo bisnis, konser kampus, hingga corporate gathering yang tertib dan berkesan.
             </p>
 
             {/* Key Value Points */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3 w-full max-w-xl mb-6 sm:mb-9 text-xs sm:text-sm text-slate-700">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3 w-full max-w-xl mb-6 sm:mb-9 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
               <div className="flex items-center gap-2.5">
-                <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                 <span>Zero Technical Delay & Alur Tertib</span>
               </div>
               <div className="flex items-center gap-2.5">
-                <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                 <span>Satu Frekuensi dengan Audiens Gen Z</span>
               </div>
               <div className="flex items-center gap-2.5">
-                <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                 <span>Peralatan Lengkap (Sound, LED, Stage)</span>
               </div>
               <div className="flex items-center gap-2.5">
-                <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                 <span>Entitas NIB OSS 1608260012591 Resmi</span>
               </div>
             </div>
@@ -110,7 +110,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
               <a
                 href="#galeri"
                 id="hero-cta-gallery"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 sm:px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-200 text-sm sm:text-base font-semibold transition-all hover:border-slate-300 shadow-2xs"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 sm:px-6 py-3.5 rounded-xl bg-white dark:bg-[#020617] hover:bg-slate-50 dark:hover:bg-slate-900 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-800 text-sm sm:text-base font-semibold transition-all hover:border-slate-300 shadow-2xs"
               >
                 <span>Jelajahi Galeri Acara</span>
                 <ArrowRight className="w-4 h-4" />
@@ -121,7 +121,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 id="hero-cta-whatsapp"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-200 text-sm sm:text-base font-semibold transition-all hover:border-slate-300 shadow-2xs"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-white dark:bg-[#020617] hover:bg-slate-50 dark:hover:bg-slate-900 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-800 text-sm sm:text-base font-semibold transition-all hover:border-slate-300 shadow-2xs"
               >
                 <MessageCircle className="w-4 h-4 text-emerald-600" />
                 <span>Konsultasi Cepat (WA)</span>
@@ -129,7 +129,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
             </div>
 
             {/* Location & Trust Footer */}
-            <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs text-slate-500 pt-3 border-t border-slate-100 w-full">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs text-slate-500 dark:text-slate-400 pt-3 border-t border-slate-100 dark:border-slate-800/50 w-full">
               <div className="flex items-center gap-1.5">
                 <MapPin className="w-3.5 h-3.5 text-slate-400" />
                 <span>Bandung, Jawa Barat</span>
@@ -143,7 +143,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
               <button 
                 type="button" 
                 onClick={onOpenCalculator}
-                className="text-blue-600 hover:underline font-medium inline-flex items-center gap-1"
+                className="text-blue-600 dark:text-blue-400 hover:underline font-medium inline-flex items-center gap-1"
               >
                 <Sparkles className="w-3 h-3" />
                 <span>Hitung Estimasi Kebutuhan</span>
@@ -166,17 +166,17 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
             />
 
             {/* Main Featured Mosaic Container */}
-            <div className="relative bg-white p-3 rounded-2xl border border-slate-100 shadow-xl shadow-slate-200/50">
+            <div className="relative bg-white dark:bg-[#020617] p-3 rounded-2xl border border-slate-100 dark:border-slate-800/50 shadow-xl shadow-slate-200/50">
               
               {/* Top Banner Tag */}
-              <div className="flex items-center justify-between px-3 py-2 border-b border-slate-100 mb-3">
+              <div className="flex items-center justify-between px-3 py-2 border-b border-slate-100 dark:border-slate-800/50 mb-3">
                 <div className="flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
-                  <span className="text-xs font-bold text-slate-800 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-slate-800 dark:text-slate-200 uppercase tracking-wider">
                     Galeri Sukses Terverifikasi
                   </span>
                 </div>
-                <span className="text-[11px] font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
+                <span className="text-[11px] font-semibold text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-500/10 px-2 py-0.5 rounded">
                   Portfolio Highlight
                 </span>
               </div>
@@ -185,7 +185,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
               <div className="grid grid-cols-2 gap-2 sm:gap-2.5">
                 
                 {/* Photo 1: Purikota Property Launching Setup */}
-                <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100">
+                <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100 dark:bg-slate-800/50">
                   <img
                     src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800&auto=format&fit=crop"
                     alt="Tenda VIP Grand Launching Purikota"
@@ -200,7 +200,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
                 </div>
 
                 {/* Photo 2: IFBC National Franchise Exhibition */}
-                <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100">
+                <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100 dark:bg-slate-800/50">
                   <img
                     src="/images/ifbc_ballroom_expo_1788885483057.jpg"
                     alt="Panggung Sudirman Grand Ballroom IFBC"
@@ -215,7 +215,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
                 </div>
 
                 {/* Photo 3: Ground Crew in Action */}
-                <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100">
+                <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100 dark:bg-slate-800/50">
                   <img
                     src="/images/ifbc_crew_documentary_1788885581400.jpg"
                     alt="Tim YouNity Berompi Resmi"
@@ -230,7 +230,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
                 </div>
 
                 {/* Photo 4: Campus Creative & Concert Stage */}
-                <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100">
+                <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100 dark:bg-slate-800/50">
                   <img
                     src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=800&auto=format&fit=crop"
                     alt="Panggung Konser dan Tata Lampu"
@@ -248,19 +248,19 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
 
               {/* Floating Stat Badges - responsive layout without overflowing on phones */}
               <div className="mt-3 sm:mt-0 flex flex-col sm:block gap-2">
-                <div className="sm:absolute sm:-bottom-4 sm:-left-4 bg-white p-2.5 sm:p-3.5 rounded-xl border border-slate-200/90 shadow-md sm:shadow-lg flex items-center gap-2.5 sm:gap-3">
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center flex-shrink-0">
+                <div className="sm:absolute sm:-bottom-4 sm:-left-4 bg-white dark:bg-[#020617] p-2.5 sm:p-3.5 rounded-xl border border-slate-200/90 shadow-md sm:shadow-lg flex items-center gap-2.5 sm:gap-3">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-blue-50 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center flex-shrink-0">
                     <Users className="w-4 h-4 sm:w-5 sm:h-5" />
                   </div>
                   <div>
-                    <div className="text-base sm:text-lg font-bold text-slate-900 leading-tight">100%</div>
-                    <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium">Kepuasan Klien Terjaga</div>
+                    <div className="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-tight">100%</div>
+                    <div className="text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400 font-medium">Kepuasan Klien Terjaga</div>
                   </div>
                 </div>
 
-                <div className="sm:absolute sm:-top-3 sm:-right-3 bg-white px-3 py-2 sm:px-3.5 sm:py-2.5 rounded-xl border border-slate-200/90 shadow-md sm:shadow-lg flex items-center gap-2">
+                <div className="sm:absolute sm:-top-3 sm:-right-3 bg-white dark:bg-[#020617] px-3 py-2 sm:px-3.5 sm:py-2.5 rounded-xl border border-slate-200/90 shadow-md sm:shadow-lg flex items-center gap-2">
                   <CalendarCheck className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-600 flex-shrink-0" />
-                  <span className="text-[11px] sm:text-xs font-bold text-slate-800">Zero Technical Delay</span>
+                  <span className="text-[11px] sm:text-xs font-bold text-slate-800 dark:text-slate-200">Zero Technical Delay</span>
                 </div>
               </div>
 

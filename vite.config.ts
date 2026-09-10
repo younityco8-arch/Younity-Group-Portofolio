@@ -5,11 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // UNTUK GITHUB PAGES:
-    // Jika repositori Anda bernama "my-project" (https://username.github.io/my-project/),
-    // ubah base di bawah ini menjadi '/my-project/'.
-    // Secara default, './' digunakan agar path aset menjadi relatif.
-    base: './', 
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
