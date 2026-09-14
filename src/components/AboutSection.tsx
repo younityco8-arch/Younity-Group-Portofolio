@@ -23,10 +23,10 @@ export function AboutSection() {
             <Users2 className="w-3.5 h-3.5" />
             <span>Tentang YouNity Group</span>
           </div>
-          <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+          <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 leading-loose text-justify md:text-left">
             {ABOUT_TEXT.paragraph1}
           </p>
-          <p className="mt-2.5 sm:mt-3 text-sm sm:text-base text-slate-600 dark:text-slate-400 leading-relaxed">
+          <p className="mt-2.5 sm:mt-3 text-sm sm:text-base text-slate-600 dark:text-slate-400 leading-loose text-justify md:text-left">
             {ABOUT_TEXT.paragraph2}
           </p>
         </div>
@@ -47,7 +47,7 @@ export function AboutSection() {
                 <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-white mb-1.5 sm:mb-2">
                   {pillar.title}
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-loose text-justify md:text-left">
                   {pillar.desc}
                 </p>
               </div>

@@ -65,7 +65,7 @@ export function ServicesSection() {
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             Solusi Menyeluruh untuk Segala Format Acara
           </h2>
-          <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+          <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 leading-loose text-justify md:text-left">
             Dikelola dengan pendekatan personal dan eksekusi terstruktur, didukung oleh peralatan in-house dan kru profesional.
           </p>
         </div>
@@ -109,7 +109,7 @@ export function ServicesSection() {
                     {service.subtitle}
                   </p>
 
-                  <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mb-5 sm:mb-6 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mb-5 sm:mb-6 leading-loose text-justify md:text-left">
                     {service.description}
                   </p>
 
@@ -208,7 +208,7 @@ export function ServicesSection() {
                       {item.name}
                     </h4>
 
-                    <p className="text-xs text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">
+                    <p className="text-xs text-slate-600 dark:text-slate-400 mb-4 leading-loose text-justify md:text-left">
                       {item.description}
                     </p>
 

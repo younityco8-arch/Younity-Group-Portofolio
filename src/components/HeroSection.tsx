@@ -67,7 +67,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
             </h1>
 
             {/* Subtitle / Positioning */}
-            <p className="text-base sm:text-lg lg:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl mb-6 sm:mb-8 font-normal">
+            <p className="text-base sm:text-lg lg:text-xl text-slate-600 dark:text-slate-400 leading-loose text-justify md:text-left max-w-2xl mb-6 sm:mb-8 font-normal">
               <strong className="font-semibold text-slate-800 dark:text-slate-200">YouNity Group</strong> adalah mitra manajemen dan produksi acara satu pintu di Bandung. Kami memadukan idealisme, energi muda, dan ketelitian manajemen untuk mewujudkan peluncuran produk, expo bisnis, konser kampus, hingga corporate gathering yang tertib dan berkesan.
             </p>
 
@@ -243,7 +243,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
               </div>
 
               {/* Floating Stat Badges - responsive layout without overflowing on phones */}
-              <div className="mt-3 sm:mt-0 flex flex-col sm:block gap-2">
+              <div className="hidden sm:block mt-3 sm:mt-0 flex flex-col gap-2">
                 <div className="sm:absolute sm:-bottom-4 sm:-left-4 bg-white dark:bg-[#020617] p-2.5 sm:p-3.5 rounded-xl border border-slate-200/90 shadow-md sm:shadow-lg flex items-center gap-2.5 sm:gap-3">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-blue-50 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center flex-shrink-0">
                     <Users className="w-4 h-4 sm:w-5 sm:h-5" />

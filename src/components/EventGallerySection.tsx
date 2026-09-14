@@ -76,7 +76,7 @@ export function EventGallerySection() {
                 Klien: Purikota Kriya Maha Citra
               </p>
 
-              <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed mb-6">
+              <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-loose text-justify md:text-left mb-6">
                 YouNity Group mengelola seluruh alur operasional acara, mulai dari setup tenda VIP, panggung presentasi, hospitality lounge, alur registrasi pengunjung tertib, hingga crowd control yang menghasilkan konversi booking fee maksimal.
               </p>
 
@@ -215,7 +215,7 @@ export function EventGallerySection() {
                 Klien: IFBC (Info Franchise dan Business Concept)
               </p>
 
-              <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed mb-6">
+              <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-loose text-justify md:text-left mb-6">
                 Pameran waralaba dan konsep bisnis tingkat nasional di Sudirman Grand Ballroom Bandung. YouNity Group dipercaya sebagai garda depan pengawalan kru operasional booth dan produksi dokumentasi foto/video sinematik harian.
               </p>
 
