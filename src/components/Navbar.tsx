@@ -55,7 +55,7 @@ export function Navbar({ onOpenCalculator }: NavbarProps) {
             <YouNityLogo size="md" variant={theme === 'dark' ? 'white' : 'color'} />
           </a>
 
-          {/* Desktop Navigation Links (Large Screens & Desktops) */}
+          {/* Desktop Navigation Links (Large Screens dan Desktops) */}
           <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
             {navLinks.map((link) => (
               <a
@@ -68,7 +68,7 @@ export function Navbar({ onOpenCalculator }: NavbarProps) {
             ))}
           </nav>
 
-          {/* Action CTAs for Desktop & Tablet */}
+          {/* Action CTAs for Desktop dan Tablet */}
           <div className="hidden sm:flex items-center gap-2 lg:gap-3">
             {/* Theme Toggle Button */}
             <button
@@ -103,7 +103,7 @@ export function Navbar({ onOpenCalculator }: NavbarProps) {
             </a>
           </div>
 
-          {/* Mobile & Tablet Hamburger Toggle */}
+          {/* Mobile dan Tablet Hamburger Toggle */}
           <div className="flex lg:hidden items-center gap-2">
             <button
               onClick={toggleTheme}
@@ -135,7 +135,7 @@ export function Navbar({ onOpenCalculator }: NavbarProps) {
         </div>
       </div>
 
-      {/* Mobile & Tablet Drawer Menu */}
+      {/* Mobile dan Tablet Drawer Menu */}
       {mobileMenuOpen && (
         <div className="lg:hidden bg-white/98 dark:bg-[#020617]/98 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 sm:px-6 pt-3 pb-6 shadow-xl animate-in slide-in-from-top-2 duration-200">
           <div className="flex flex-col gap-1.5 max-w-lg mx-auto">
@@ -161,7 +161,7 @@ export function Navbar({ onOpenCalculator }: NavbarProps) {
                 className="w-full flex items-center justify-center gap-2 py-2.5 rounded-lg bg-blue-50 dark:bg-blue-500/10 dark:bg-blue-50 dark:bg-blue-500/100/10 text-blue-700 dark:text-blue-400 dark:text-blue-400 dark:text-blue-400 text-sm font-semibold border border-blue-200 dark:border-blue-500/30"
               >
                 <Sparkles className="w-4 h-4 text-blue-600 dark:text-blue-400 dark:text-blue-400" />
-                <span>Kalkulator & Estimasi Kebutuhan Acara</span>
+                <span>Kalkulator dan Estimasi Kebutuhan Acara</span>
               </button>
 
               <a

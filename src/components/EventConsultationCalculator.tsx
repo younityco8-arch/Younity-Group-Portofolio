@@ -20,21 +20,21 @@ export function EventConsultationCalculator({ onClose }: EventConsultationCalcul
   const [eventType, setEventType] = useState('Property Launching / Grand Opening');
   const [guestCount, setGuestCount] = useState('100 - 300 Tamu');
   const [services, setServices] = useState<string[]>([
-    'Full Event Management & Flow SOP',
-    'Dokumentasi Foto & Video Sinematik',
+    'Full Event Management dan Flow SOP',
+    'Dokumentasi Foto dan Video Sinematik',
   ]);
   const [locationPlan, setLocationPlan] = useState('Bandung / Jawa Barat');
   const [notes, setNotes] = useState('');
 
   const serviceOptions = [
-    'Full Event Management & Flow SOP',
-    'Desain Konsep & Key Visual Panggung',
-    'Sound System Audio Rig & Mic Wireless',
+    'Full Event Management dan Flow SOP',
+    'Desain Konsep dan Key Visual Panggung',
+    'Sound System Audio Rig dan Mic Wireless',
     'Videotron / LED Screen P3.9',
-    'Lighting Panggung (Moving Beam & Par LED)',
-    'Tenda Sarnafil & Roder Plafon VIP',
-    'Dokumentasi Foto & Video Sinematik',
-    'Outbound Facilitator & Games Itinerary',
+    'Lighting Panggung (Moving Beam dan Par LED)',
+    'Tenda Sarnafil dan Roder Plafon VIP',
+    'Dokumentasi Foto dan Video Sinematik',
+    'Outbound Facilitator dan Games Itinerary',
   ];
 
   const toggleService = (srv: string) => {
@@ -68,7 +68,7 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
         <div>
           <div className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-1">
             <Calculator className="w-4 h-4" />
-            <span>Kalkulator & Estimasi Kebutuhan</span>
+            <span>Kalkulator dan Estimasi Kebutuhan</span>
           </div>
           <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             Rancang Kebutuhan Acara Anda
@@ -89,10 +89,10 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-2.5">
             {[
               'Property Launching / Grand Opening',
-              'Exhibition & Franchise Expo',
-              'Campus Festival & Wisuda',
-              'Corporate Gathering & Outbound',
-              'Seminar, Workshop & Conference',
+              'Exhibition dan Franchise Expo',
+              'Campus Festival dan Wisuda',
+              'Corporate Gathering dan Outbound',
+              'Seminar, Workshop dan Conference',
               'Sewa Alat Panggung Saja (Equipment)',
             ].map((type) => (
               <button
@@ -134,11 +134,11 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
           </div>
         </div>
 
-        {/* Step 3: Layanan & Perlengkapan */}
+        {/* Step 3: Layanan dan Perlengkapan */}
         <div>
           <div className="flex items-center justify-between mb-2">
             <label className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
-              3. Layanan & Fasilitas yang Dibutuhkan
+              3. Layanan dan Fasilitas yang Dibutuhkan
             </label>
             <span className="text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400">Pilih satu atau lebih</span>
           </div>
@@ -170,7 +170,7 @@ Mohon informasi ketersediaan tanggal dan estimasi penawaran/proposal. Terima kas
           </div>
         </div>
 
-        {/* Step 4: Lokasi & Rencana */}
+        {/* Step 4: Lokasi dan Rencana */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
           <div>
             <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">

@@ -118,9 +118,9 @@ export function Footer() {
                     className="w-full text-xs p-3 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 focus:bg-white dark:bg-[#020617] focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700 dark:text-slate-300"
                   >
                     <option value="Property Grand Launching">Property Grand Launching</option>
-                    <option value="Exhibition & Franchise Expo">Exhibition & Franchise Expo</option>
-                    <option value="Corporate Gathering & Outbound">Corporate Gathering & Outbound</option>
-                    <option value="Festival Musik & Campus Event">Festival Musik & Campus Event</option>
+                    <option value="Exhibition dan Franchise Expo">Exhibition dan Franchise Expo</option>
+                    <option value="Corporate Gathering dan Outbound">Corporate Gathering dan Outbound</option>
+                    <option value="Festival Musik dan Campus Event">Festival Musik dan Campus Event</option>
                     <option value="Seminar / Conference">Seminar / Conference</option>
                     <option value="Sewa Peralatan (Sound/LED/Stage)">Sewa Peralatan Saja</option>
                   </select>
@@ -149,7 +149,7 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Footer Navigation & Details */}
+        {/* Footer Navigation dan Details */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 pb-10 sm:pb-12 border-b border-slate-100 dark:border-slate-800/50 text-xs text-slate-600 dark:text-slate-400">
           
           {/* Brand Info (2 cols) */}
@@ -160,7 +160,7 @@ export function Footer() {
             </p>
             <div className="text-xs text-slate-500 dark:text-slate-400 space-y-1">
               <div><strong>NIB:</strong> 1608260012591 (OSS Republik Indonesia)</div>
-              <div><strong>Klasifikasi:</strong> Event Organizer & Jasa Kreatif</div>
+              <div><strong>Klasifikasi:</strong> Event Organizer dan Jasa Kreatif</div>
               <div><strong>Domisili:</strong> Bandung, Jawa Barat</div>
             </div>
           </div>
@@ -172,7 +172,7 @@ export function Footer() {
             </h4>
             <ul className="space-y-2.5">
               <li><a href="#tentang" className="hover:text-blue-600 dark:text-blue-400 transition-colors">Tentang Kami</a></li>
-              <li><a href="#layanan" className="hover:text-blue-600 dark:text-blue-400 transition-colors">Layanan & Jasa</a></li>
+              <li><a href="#layanan" className="hover:text-blue-600 dark:text-blue-400 transition-colors">Layanan dan Jasa</a></li>
               <li><a href="#galeri" className="hover:text-blue-600 dark:text-blue-400 transition-colors">Galeri Dokumentasi</a></li>
               <li><a href="#peralatan" className="hover:text-blue-600 dark:text-blue-400 transition-colors">Sewa Peralatan</a></li>
               <li><a href="#legalitas" className="hover:text-blue-600 dark:text-blue-400 transition-colors">Legalitas NIB OSS</a></li>
@@ -185,11 +185,11 @@ export function Footer() {
               Layanan Utama
             </h4>
             <ul className="space-y-2.5">
-              <li>Corporate & Brand Activation</li>
-              <li>Campus & Community Events</li>
-              <li>Experiential Gathering & Outbound</li>
+              <li>Corporate dan Brand Activation</li>
+              <li>Campus dan Community Events</li>
+              <li>Experiential Gathering dan Outbound</li>
               <li>Creative Stage Production</li>
-              <li>Videotron & Line Array Rental</li>
+              <li>Videotron dan Line Array Rental</li>
             </ul>
           </div>
 
@@ -238,7 +238,7 @@ export function Footer() {
 
         </div>
 
-        {/* Bottom Bar: Copyright & Back to Top */}
+        {/* Bottom Bar: Copyright dan Back to Top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
           <div>
             © {new Date().getFullYear()} <strong>YouNity Group</strong> (YOUNITY GROUP). All rights reserved.

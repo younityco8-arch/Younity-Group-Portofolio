@@ -13,19 +13,19 @@ export function StatsCounter() {
       icon: Users,
       value: COMPANY_INFO.stats.clients,
       label: 'Klien Utama Terpercaya',
-      description: 'Purikota Kriya Maha Citra, IFBC Nasional, & Komunitas Kampus',
+      description: 'Purikota Kriya Maha Citra, IFBC Nasional, dan Komunitas Kampus',
     },
     {
       icon: HeartHandshake,
       value: COMPANY_INFO.stats.satisfactionRate,
       label: 'Tingkat Kepuasan Klien',
-      description: 'Zero technical delay & alur registrasi tertib berstandar SOP',
+      description: 'Eksekusi acara tanpa hambatan teknis dan alur registrasi tertib berstandar SOP',
     },
     {
       icon: Award,
       value: COMPANY_INFO.stats.yearsExperience,
       label: 'Tahun Pengalaman',
-      description: 'Kolektif kepemimpinan matang & kru lapangan ber-SOP',
+      description: 'Kolektif kepemimpinan matang dan kru lapangan ber-SOP',
     },
   ];
 
@@ -37,7 +37,7 @@ export function StatsCounter() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 sm:gap-4 mb-6 sm:mb-8">
           <div>
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
-              Track Record & Pencapaian
+              Track Record dan Pencapaian
             </span>
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 dark:text-white mt-1">
               Dipercaya Menangani Berbagai Skala Acara dengan Presisi

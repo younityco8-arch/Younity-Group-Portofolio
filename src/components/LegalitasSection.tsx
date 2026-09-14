@@ -17,7 +17,7 @@ export function LegalitasSection() {
               </div>
 
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-3 sm:mb-4">
-                Business Legalitas Resmi & Terdaftar di OSS
+                Business Legalitas Resmi dan Terdaftar di OSS
               </h2>
 
               <p className="text-xs sm:text-sm md:text-base text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
@@ -80,22 +80,22 @@ export function LegalitasSection() {
                   </li>
                   <li className="flex items-center gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                    <span>Invoice resmi, kwitansi, & perincian RAB detail</span>
+                    <span>Invoice resmi, kwitansi, dan perincian RAB detail</span>
                   </li>
                   <li className="flex items-center gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                    <span>Laporan pertanggungjawaban (LPJ) & arsip dokumentasi</span>
+                    <span>Laporan pertanggungjawaban (LPJ) dan arsip dokumentasi</span>
                   </li>
                   <li className="flex items-center gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                    <span>Mitigasi keselamatan & koordinasi perizinan venue</span>
+                    <span>Mitigasi keselamatan dan koordinasi perizinan venue</span>
                   </li>
                 </ul>
               </div>
 
               <div className="mt-6 pt-4 border-t border-blue-200/60 flex items-center gap-2 text-[11px] text-blue-900 font-semibold">
                 <Lock className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
-                <span>Aman, Terpercaya, & Siap B2B Partnership</span>
+                <span>Aman, Terpercaya, dan Siap B2B Partnership</span>
               </div>
 
             </div>

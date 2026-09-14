@@ -121,11 +121,11 @@ export function LightboxModal({
           </div>
         </div>
 
-        {/* Sidebar Info & Context (Right / Bottom) */}
+        {/* Sidebar Info dan Context (Right / Bottom) */}
         <div className="lg:w-1/4 p-4 sm:p-6 flex flex-col justify-between bg-white dark:bg-[#020617] border-t lg:border-t-0 lg:border-l border-slate-200 dark:border-slate-800 overflow-y-auto">
           
           <div>
-            {/* Top Close Button for Mobile & Desktop */}
+            {/* Top Close Button for Mobile dan Desktop */}
             <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800/50 mb-4">
               <span className="text-[11px] uppercase font-bold text-blue-600 dark:text-blue-400 tracking-wider">
                 Dokumentasi Acara

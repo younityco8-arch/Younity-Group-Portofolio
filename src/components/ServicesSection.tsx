@@ -60,7 +60,7 @@ export function ServicesSection() {
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 dark:text-blue-400 text-xs font-semibold uppercase tracking-wider mb-3">
             <Layers className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-            <span>Produk & Layanan</span>
+            <span>Produk dan Layanan</span>
           </div>
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             Solusi Menyeluruh untuk Segala Format Acara
@@ -96,7 +96,7 @@ export function ServicesSection() {
                 )}
 
                 <div>
-                  {/* Icon & Title */}
+                  {/* Icon dan Title */}
                   <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-blue-100/70 text-[#0066FF] flex items-center justify-center mb-4 sm:mb-5">
                     <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
                   </div>
@@ -165,10 +165,10 @@ export function ServicesSection() {
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-6 sm:mb-10">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
-                  Creative Production & Equipment
+                  Creative Production dan Equipment
                 </span>
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">
-                  Sewa Peralatan Event & Rigging
+                  Sewa Peralatan Event dan Rigging
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-2 max-w-2xl">
                   YouNity Group menyediakan dukungan alat panggung berstandar industri dengan teknisi operator berpengalaman untuk memastikan kelancaran teknis tanpa kendala.

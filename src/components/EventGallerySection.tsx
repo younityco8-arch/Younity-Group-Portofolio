@@ -40,7 +40,7 @@ export function EventGallerySection() {
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 dark:text-blue-400 text-xs font-semibold uppercase tracking-wider mb-3">
             <Camera className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-            <span>Portofolio & Galeri Sukses</span>
+            <span>Portofolio dan Galeri Sukses</span>
           </div>
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             Galeri Dokumentasi Setiap Acara yang Sukses
@@ -55,17 +55,17 @@ export function EventGallerySection() {
         {/* ======================================================== */}
         <div className="mb-14 sm:mb-20 lg:mb-24 bg-slate-50/70 rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 border border-slate-200/80 shadow-xs">
           
-          {/* Header & Meta Row */}
+          {/* Header dan Meta Row */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-8 pb-8 border-b border-slate-200 dark:border-slate-800">
             
-            {/* Title & Overview (7 cols) */}
+            {/* Title dan Overview (7 cols) */}
             <div className="lg:col-span-7">
               <div className="flex flex-wrap items-center gap-2 mb-3">
                 <span className="bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                   Case Study Unggulan
                 </span>
                 <span className="bg-blue-100 text-blue-800 dark:text-blue-300 dark:text-blue-300 text-xs font-bold px-3 py-1 rounded-full">
-                  Corporate & Brand Activation
+                  Corporate dan Brand Activation
                 </span>
               </div>
 
@@ -93,11 +93,11 @@ export function EventGallerySection() {
               </div>
             </div>
 
-            {/* Impact Box & Result Stats (5 cols) */}
+            {/* Impact Box dan Result Stats (5 cols) */}
             <div className="lg:col-span-5 bg-white dark:bg-[#020617] rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
               <div className="flex items-center gap-2 text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider mb-4 pb-3 border-b border-slate-100 dark:border-slate-800/50">
                 <TrendingUp className="w-4 h-4 text-emerald-600" />
-                <span>Key Impact & Capaian Klien</span>
+                <span>Key Impact dan Capaian Klien</span>
               </div>
 
               {/* 2 Big Numbers from PDF */}
@@ -125,7 +125,7 @@ export function EventGallerySection() {
 
               {/* Key Impact Quote */}
               <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed italic bg-slate-50 dark:bg-slate-900 p-3 rounded-lg border border-slate-100 dark:border-slate-800/50">
-                "Berhasil mengeksekusi 3 seri launching secara beruntun dengan alur registrasi tertib, zero technical delay, serta mendukung tercapainya target booking fee penjualan unit klien."
+                "Berhasil mengeksekusi 3 seri launching secara beruntun dengan alur registrasi tertib, tanpa hambatan teknis, serta mendukung tercapainya target booking fee penjualan unit klien."
               </p>
             </div>
 
@@ -194,17 +194,17 @@ export function EventGallerySection() {
         {/* ======================================================== */}
         <div className="mb-14 sm:mb-20 lg:mb-24 bg-slate-50/70 rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 border border-slate-200/80 shadow-xs">
           
-          {/* Header & Meta Row */}
+          {/* Header dan Meta Row */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-8 pb-8 border-b border-slate-200 dark:border-slate-800">
             
-            {/* Title & Overview (7 cols) */}
+            {/* Title dan Overview (7 cols) */}
             <div className="lg:col-span-7">
               <div className="flex flex-wrap items-center gap-2 mb-3">
                 <span className="bg-blue-100 text-blue-800 dark:text-blue-300 dark:text-blue-300 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
-                  Exhibition & Expo Skala Nasional
+                  Exhibition dan Expo Skala Nasional
                 </span>
                 <span className="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full">
-                  Crew & Media Production
+                  Crew dan Media Production
                 </span>
               </div>
 
@@ -212,7 +212,7 @@ export function EventGallerySection() {
                 IFBC Exhibition Activation
               </h3>
               <p className="text-base text-blue-700 dark:text-blue-400 dark:text-blue-400 font-semibold mt-1 mb-4">
-                Klien: IFBC (Info Franchise & Business Concept)
+                Klien: IFBC (Info Franchise dan Business Concept)
               </p>
 
               <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed mb-6">
@@ -232,11 +232,11 @@ export function EventGallerySection() {
               </div>
             </div>
 
-            {/* Impact Box & Result Stats (5 cols) */}
+            {/* Impact Box dan Result Stats (5 cols) */}
             <div className="lg:col-span-5 bg-white dark:bg-[#020617] rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
               <div className="flex items-center gap-2 text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider mb-4 pb-3 border-b border-slate-100 dark:border-slate-800/50">
                 <CheckCircle2 className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-                <span>Peran Kunci & Keberhasilan</span>
+                <span>Peran Kunci dan Keberhasilan</span>
               </div>
 
               <div className="space-y-3 mb-5 text-xs text-slate-700 dark:text-slate-300">
@@ -320,7 +320,7 @@ export function EventGallerySection() {
 
 
         {/* ======================================================== */}
-        {/* MASTER FILTERABLE PHOTO GALLERY (All Events & Categories) */}
+        {/* MASTER FILTERABLE PHOTO GALLERY (All Events dan Categories) */}
         {/* ======================================================== */}
         <div className="pt-8">
           
@@ -342,7 +342,7 @@ export function EventGallerySection() {
               {[
                 { id: 'all', label: 'Semua Foto' },
                 { id: 'property', label: 'Property Launching' },
-                { id: 'exhibition', label: 'Exhibition & Expo' },
+                { id: 'exhibition', label: 'Exhibition dan Expo' },
                 { id: 'campus', label: 'Campus Festival' },
                 { id: 'corporate', label: 'Corporate Outbound' },
               ].map((filter) => (

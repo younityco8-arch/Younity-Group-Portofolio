@@ -23,9 +23,6 @@ export function AboutSection() {
             <Users2 className="w-3.5 h-3.5" />
             <span>Tentang YouNity Group</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">
-            One Step Event Solutions yang Lahir dari Semangat Kolaboratif
-          </h2>
           <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
             {ABOUT_TEXT.paragraph1}
           </p>
@@ -58,17 +55,17 @@ export function AboutSection() {
           })}
         </div>
 
-        {/* Misi & Visi Interactive Container */}
+        {/* Misi dan Visi Interactive Container */}
         <div className="bg-slate-50 dark:bg-slate-900 rounded-2xl p-4 sm:p-8 lg:p-10 border border-slate-200/80">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-start">
             
             {/* Left Selector Column */}
             <div className="lg:col-span-4">
               <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
-                Arah & Komitmen Kami
+                Arah dan Komitmen Kami
               </span>
               <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mt-1 mb-2 sm:mb-4">
-                Visi & Misi Perusahaan
+                Visi dan Misi Perusahaan
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mb-5 sm:mb-6 leading-relaxed">
                 Sebagai fondasi dalam setiap perancangan konsep, penyusunan anggaran, hingga eksekusi panggung acara Anda.
@@ -124,7 +121,7 @@ export function AboutSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-slate-800 dark:text-slate-200">Berbasis di Bandung</div>
-                  <div>Siap melayani kebutuhan acara di Jawa Barat & sekitarnya</div>
+                  <div>Siap melayani kebutuhan acara di Jawa Barat dan sekitarnya</div>
                 </div>
               </div>
             </div>
@@ -139,7 +136,7 @@ export function AboutSection() {
                         Visi Perusahaan
                       </span>
                       <h4 className="text-xl font-bold text-slate-900 dark:text-white mt-0.5">
-                        Menjadi Penggerak Acara yang Adaptif & Berkelanjutan
+                        Menjadi Penggerak Acara yang Adaptif dan Berkelanjutan
                       </h4>
                     </div>
                     <span className="bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 dark:text-blue-400 font-bold text-xs px-2.5 py-1 rounded">
@@ -189,11 +186,11 @@ export function AboutSection() {
                     </div>
                     <div className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-emerald-600" />
-                      <span>Kolaborasi lintas komunitas & kampus</span>
+                      <span>Kolaborasi lintas komunitas dan kampus</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-emerald-600" />
-                      <span>SOP ketat & zero delay guarantee</span>
+                      <span>SOP ketat dan zero delay guarantee</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-emerald-600" />
