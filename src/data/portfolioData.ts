@@ -154,12 +154,12 @@ export const PORTFOLIO_EVENTS: PortfolioEvent[] = [
       'Pengambilan aset visual menyeluruh (suasana hall, interaksi booth, momen talkshow/pembicara, dan seremonial), menjaga kestabilan operasional booth selama pameran berlangsung, dan kurasi serta penyusunan konten visual untuk kebutuhan daily report dan arsip promosi penyelenggara.',
     description:
       'Pameran bisnis waralaba terkemuka di Indonesia yang menghadirkan ratusan brand nasional seperti Coffeetamin, Warkopedia, hingga inovator bisnis modern. YouNity Group bertindak sebagai unit pendukung kunci yang memastikan jalannya expo lancar, visualisasi panggung utama terdokumentasi dengan standar sinematik, serta pengarsipan foto/video harian tepat waktu.',
-    featuredImage: '/Younity-Group-Portofolio/images/ifbc_ballroom_expo_1788885483057.jpg',
+    featuredImage: './images/ifbc_ballroom_expo_1788885483057.jpg',
     tags: ['Franchise Expo', 'Multi-Day Exhibition', 'Ballroom Event', 'Daily Visual Report', 'Audio-Visual Media'],
     photos: [
       {
         id: 'ifbc-1',
-        url: '/Younity-Group-Portofolio/images/ifbc_stage_award_1788885506040.jpg',
+        url: './images/ifbc_stage_award_1788885506040.jpg',
         title: 'Seremonial Panggung Utama dan Foto Bersama Mitra IFBC',
         caption: 'Dokumentasi momen serah terima piagam dan foto resmi seluruh exhibitor terkemuka di panggung utama Sudirman Grand Ballroom.',
         eventTitle: 'IFBC Exhibition Activation',
@@ -168,7 +168,7 @@ export const PORTFOLIO_EVENTS: PortfolioEvent[] = [
       },
       {
         id: 'ifbc-2',
-        url: '/Younity-Group-Portofolio/images/ifbc_ballroom_expo_1788885483057.jpg',
+        url: './images/ifbc_ballroom_expo_1788885483057.jpg',
         title: 'Suasana Hall dan Dokumentasi Pameran Sudirman Grand Ballroom',
         caption: 'Pemandangan menyeluruh hall Sudirman Grand Ballroom yang dipadati pengunjung pameran waralaba nasional IFBC Expo.',
         eventTitle: 'IFBC Exhibition Activation',
@@ -177,7 +177,7 @@ export const PORTFOLIO_EVENTS: PortfolioEvent[] = [
       },
       {
         id: 'ifbc-3',
-        url: '/Younity-Group-Portofolio/images/ifbc_booth_crowd_1788885522833.jpg',
+        url: './images/ifbc_booth_crowd_1788885522833.jpg',
         title: 'Aktivasi Booth Brand Waralaba dan Kemitraan',
         caption: 'Interaksi intensif pengunjung di booth exhibitor seperti Coffeetamin dan Warkopedia yang ditata atraktif.',
         eventTitle: 'IFBC Exhibition Activation',
@@ -186,7 +186,7 @@ export const PORTFOLIO_EVENTS: PortfolioEvent[] = [
       },
       {
         id: 'ifbc-4',
-        url: '/Younity-Group-Portofolio/images/ifbc_talkshow_stage_1788885556620.jpg',
+        url: './images/ifbc_talkshow_stage_1788885556620.jpg',
         title: 'Sesi Talkshow Inspiratif dan Presentasi Peluang Bisnis',
         caption: 'Pencahayaan presisi dan tata suara yang jernih mendukung jalannya seminar bisnis di hadapan ratusan calon investor.',
         eventTitle: 'IFBC Exhibition Activation',
@@ -195,7 +195,7 @@ export const PORTFOLIO_EVENTS: PortfolioEvent[] = [
       },
       {
         id: 'ifbc-5',
-        url: '/Younity-Group-Portofolio/images/ifbc_crew_documentary_1788885581400.jpg',
+        url: './images/ifbc_crew_documentary_1788885581400.jpg',
         title: 'Tim Dokumentasi dan Kontrol Lapangan YouNity',
         caption: 'Personel YouNity bergerak mobile menangkap emosi, ekspresi closing deal, serta interaksi dinamis sepanjang expo.',
         eventTitle: 'IFBC Exhibition Activation',

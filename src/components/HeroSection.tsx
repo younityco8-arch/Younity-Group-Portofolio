@@ -198,7 +198,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
                 {/* Photo 2: IFBC National Franchise Exhibition */}
                 <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100 dark:bg-slate-800/50">
                   <img
-                    src="/Younity-Group-Portofolio/images/ifbc_ballroom_expo_1788885483057.jpg"
+                    src="./images/ifbc_ballroom_expo_1788885483057.jpg"
                     alt="Panggung Sudirman Grand Ballroom IFBC"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="eager"
@@ -213,7 +213,7 @@ export function HeroSection({ onOpenCalculator }: HeroSectionProps) {
                 {/* Photo 3: Ground Crew in Action */}
                 <div className="relative group rounded-xl overflow-hidden aspect-4/3 bg-slate-100 dark:bg-slate-800/50">
                   <img
-                    src="/Younity-Group-Portofolio/images/ifbc_crew_documentary_1788885581400.jpg"
+                    src="./images/ifbc_crew_documentary_1788885581400.jpg"
                     alt="Tim YouNity Berompi Resmi"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
